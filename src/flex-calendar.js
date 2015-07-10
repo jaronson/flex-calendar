@@ -8,10 +8,10 @@
 
       var template =
       '<div class="flex-calendar">'+
-        '<div class="month">'+
-          '<div class="arrow" ng-click="prevMonth()"></div>'+
+        '<div class="month bar-calm">'+
+          '<div class="button button-icon icon ion-ios-arrow-left" ng-click="prevMonth()"></div>'+
           '<div class="label">{{selectedMonth}} {{selectedYear}}</div>'+
-          '<div class="arrow" ng-click="nextMonth()"></div>'+
+          '<div class="button button-icon icon ion-ios-arrow-right" ng-click="nextMonth()"></div>'+
         '</div>'+
         '<div class="week">'+
           '<div class="day" ng-repeat="day in weekDays(options.dayNamesLength) track by $index">{{day}}</div>'+

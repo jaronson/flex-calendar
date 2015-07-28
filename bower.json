@@ -11,6 +11,10 @@
     "angular",
     "flex"
   ],
+  "main": [
+    "dist/flex-calendar.min.css",
+    "dist/flex-calendar.min.js"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
